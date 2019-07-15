@@ -8,4 +8,18 @@ Storybook for React components
 yarn deploy
 ```
 
-(you can automate the deploy with GitHub integration, but you have to remove `storybook-static` from `.gitignore`)
+## GitHub integration
+
+You can use the GitHub integration, but you have to change the `now.json` removing
+
+```
+"github": {
+    "enabled": false
+  }
+```
+
+remove `/storybook-static` from the `.gitignore` and
+
+```
+yarn build-storybook
+```

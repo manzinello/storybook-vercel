@@ -4,5 +4,8 @@
   "public": true,
   "version": 2,
   "builds": [{ "src": "storybook-static/*", "use": "@now/static" }],
-  "routes": [{ "src": "/(.*)", "dest": "storybook-static/$1" }]
+  "routes": [{ "src": "/(.*)", "dest": "storybook-static/$1" }],
+  "github": {
+    "enabled": false
+  }
 }
