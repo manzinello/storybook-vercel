@@ -2,7 +2,6 @@
   "name": "storybook-now",
   "version": "0.1.0",
   "description": "Storybook on Zeit Now",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -22,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/manzinello/storybook-now/issues"
   },
-  "homepage": "https://github.com/manzinello/storybook-now#readme",
+  "homepage": "https://storybook-now.now.sh",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
