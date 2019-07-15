@@ -1,6 +1,6 @@
 {
   "name": "storybook-now",
-  "alias": ["storybook-now"],
+  "alias": ["storybook-now", "storybook"],
   "public": true,
   "version": 2,
   "builds": [{ "src": "storybook-static/*", "use": "@now/static" }],
